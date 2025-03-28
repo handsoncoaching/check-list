@@ -1,16 +1,15 @@
-// Firebase Configuration
+// Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-    databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_PROJECT_ID.appspot.com",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCJjESRA9WfLbHBMA7Gt5z1-QxXs4hBSy0",
+  authDomain: "handsoncoaching-fdc45.firebaseapp.com",
+  projectId: "handsoncoaching-fdc45",
+  storageBucket: "handsoncoaching-fdc45.firebasestorage.app",
+  messagingSenderId: "812245181548",
+  appId: "1:812245181548:web:cf3c265a6f0b3954c4e449"
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
 const database = firebase.database();
 
 const form = document.getElementById('dataForm');
